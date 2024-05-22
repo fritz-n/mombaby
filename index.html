@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>mombaby-easycalculator</h1>
+    <h1 id="page-heading">mombaby-easycalculator</h1>
+    <!-- <div class="shift-chooser">
+        <label for="dayshift"><input type="radio" name="shift" checked value="7a-7p" id="dayshift"> 7a-7p</label>
+        <label for="nightshift" style="margin-left: 20px;"><input type="radio" name="shift" value="7p-7a" id="nightshift"> 7p-7a</label>
+    </div> -->
     <label for="time">Date born</label>: <input id="time" type="datetime-local">
-    <div id="output"></div>
+    <table>
+        <tbody>
+            <tr>
+                <th>Baby Bath</th>
+                <td id="bath-time">Bath time</td>
+            </tr>
+            <tr>
+                <th>Baby PKU</th>
+                <td id="pku-time">PKU time</td>
+            </tr>
+            <tr>
+                <th>Mom Vital</th>
+                <td id="vitals-time">Vital time</td>
+            </tr>
+        </tbody>
+    </table>
     <script src="script.js"></script>
 </body>
 </html>
